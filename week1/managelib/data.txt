@@ -1,0 +1,5 @@
+[
+	{'name': "'Python3'", 'price': '14000', 'author': "'Leegansung'"},
+	{'name': "'Moosoyou'", 'price': '10000', 'author': "'Bubjung'"},
+
+]
