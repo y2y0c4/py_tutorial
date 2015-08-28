@@ -1,0 +1,25 @@
+import turtle
+import random
+wn = turtle.Screen()
+a = turtle.Turtle()
+b = turtle.Turtle()
+b.color('red')
+b.pensize(10)
+a.color('blue')
+a.pensize(5)
+b.left(50)
+b.forward(100)
+a.forward(100)
+a.right(70)
+a.forward(20)
+for i in range(100):
+    ang = random.randint(0,90)
+    forw = random.randint(0,100)
+    b_ang = random.randint(0,90)
+    b_forw = random.randint(0,100)
+    a.left(ang)
+    a.forward(forw)
+    b.left(b_ang)
+    b.forward(b_forw)
+    
+wn.mainloop()
